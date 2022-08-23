@@ -6,6 +6,33 @@
     <RootNamespace>SPProg_CS_Exp_T_1</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <UseWindowsForms>False</UseWindowsForms>
+    <SignAssembly>False</SignAssembly>
+    <Authors>Spaceginner</Authors>
+    <Company>SPlane Programming Inc</Company>
+    <Description>A programme that allows to translate to or from custom languages.</Description>
+    <Copyright>© SPlane Programming Inc, 2021-2022. All rights Reserved.</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Spaceginner/Langusgator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Spaceginner/Langusgator</PackageProjectUrl>
+    <AssemblyVersion>29</AssemblyVersion>
+    <FileVersion>0.2.1.29</FileVersion>
+    <Version>0.2.1</Version>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Product>A programme that allows to translate to or from custom languages.</Product>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
